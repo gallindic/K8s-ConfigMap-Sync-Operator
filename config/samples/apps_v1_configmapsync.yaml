@@ -1,0 +1,14 @@
+apiVersion: apps.gallindic.com/v1
+kind: ConfigMapSync
+metadata:
+  labels:
+    app.kubernetes.io/name: configmapsync
+    app.kubernetes.io/instance: configmapsync-sample
+    app.kubernetes.io/part-of: configmapsync
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: configmapsync
+  name: configmapsync-sample
+spec:
+  sourceNamespace: "configmap-syncer"
+  destinationNamespace: "default"
+  configMapName: "config-map-name"
