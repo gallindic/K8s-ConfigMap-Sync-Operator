@@ -1,8 +1,6 @@
 # k8s-configmap-sync-operator
-// TODO(user): Add simple overview of use/purpose
 
-## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+The purpose of this project was to learn about k8s operators and how do they work.
 
 ## Getting Started
 
